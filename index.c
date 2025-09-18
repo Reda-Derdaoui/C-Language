@@ -7,7 +7,6 @@ int  main(int argc, char const *argv[])
 
 		if((i % 3 == 0) && (i % 5 == 0) ) {
 			printf("FizzBuzz\n");
-			continue;
 		} else if (i % 3 == 0) {
 			printf("fizz\n");
 		} else if (i % 5 == 0) {
